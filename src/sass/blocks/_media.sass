@@ -1,0 +1,108 @@
+@media (max-width: 1600px)
+    .container
+        max-width: 1540px
+    .ecommerce
+        &__cards
+            column-gap: 30px
+
+@media (max-width: 1540px)
+    .container
+        max-width: 1090px
+    .ecommerce
+        &__cards
+            grid-template-columns: 425px 425px
+            grid-template-rows: 520px 520px
+            column-gap: 130px
+
+@media (max-width: 1200px)
+    .container
+        max-width: 1000px
+    .ecommerce
+        &__cards
+            column-gap: 39px
+
+@media (max-width: 1050px)
+    .container
+        max-width: 800px
+    .ecommerce
+        &__cards
+            grid-template-columns: 425px
+            grid-template-rows: 520px 520px 520px
+            column-gap: 0px
+            justify-content: center
+        &__card
+            &:nth-child(3)
+                margin-top: 360px
+
+@media (max-width: 685px)
+    .container
+        max-width: 560px
+    .ecommerce
+        &__cards
+        &__card
+            &-payment
+                margin-left: 60px
+            &-mini
+                &-bottom
+                    top: 205px
+                    left: 231px
+
+@media (max-width: 576px)
+    .container
+        max-width: 100%
+        padding: 0 10px
+    .ecommerce
+        &__title
+            width: 243px
+            font-size: 2.5em
+            line-height: 1em
+        &__cards
+            grid-template-columns: 320px
+            grid-template-rows: 520px
+            margin-top: 10px
+        &__card
+            &:nth-child(2)
+                margin-top: 95px
+            &:nth-child(3)
+                margin-top: 135px
+                
+            &-title
+                font-size: 30px
+                line-height: 48px
+            &-img
+                width: 300px
+                border-radius: 30px
+            &-payment
+                margin-left: 113px
+                margin-top: 71px
+                &-img
+                    width: 140px
+                &-icon
+                    margin-left: 0px
+            &-social
+                left: -51px
+                img
+                    width: 78px
+                &-square
+                    top: -26px
+                    left: 55px
+                &-mailchimp
+                    top: 24px
+                    left: 265px
+            &-mini
+                &-top
+                    top: 10px
+                    left: 30px
+                    width: 107px
+                &-center
+                    top: -62px
+                    left: 169px
+                &-bottom
+                    top: 205px
+                    left: 154px
+                    width: 120px
+                
+    
+
+
+            
